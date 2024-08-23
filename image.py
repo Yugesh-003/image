@@ -10,7 +10,7 @@ def get_img_as_base64(file):
         data = f.read()
     return base64.b64encode(data).decode()
 
-img = get_img_as_base64("wallpapersden.com_robert-pattinson-vengeance-the-batman-4k_1680x1050.jpg")
+img = get_img_as_base64("Robots.jpg")
 
 page_bg_img = f"""
 
